@@ -18,6 +18,7 @@ module SimpleForm
       include SimpleForm::Components::Pattern
       include SimpleForm::Components::Placeholders
       include SimpleForm::Components::Readonly
+      include SimpleForm::Components::ReadonlyObjects
 
       attr_reader :attribute_name, :column, :input_type, :reflection,
                   :options, :input_html_options, :input_html_classes, :html_classes
